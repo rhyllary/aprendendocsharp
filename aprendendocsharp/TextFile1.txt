@@ -1,0 +1,3 @@
+﻿alguns comandos básicos do C# :
+console.write(""); //escreva 
+console.writ
