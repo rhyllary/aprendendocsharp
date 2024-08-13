@@ -1,3 +1,86 @@
-﻿alguns comandos básicos do C# :
-console.write(""); //escreva 
-console.writ
+﻿
+
+alguns comandos básicos do C# :
+
+console = é uma classe do sistema namepace 
+
+console.write(""); //escreva parecido com o writeline mais ele não insere uma nova linha no final 
+console.writeline("); //escreval para emitir valores  ou imprimir 
+console.read(;//leia 
+console.readkey;// leia tecla 
+
+COMENTARIOS; os comentarios podem ser feitos  por //
+ 
+ observação; cada instrução no C# termina com ;
+
+ VARIÁVEIS;
+
+float// usados para numeros de ponto flutuante como 9,99 ou 3,1234 a diferenca desse com double é 
+que  float é de apenas 6 ou 7 digitos equento double suporata cerca de 15 digitos 
+
+int //armazenar números inteiros SEM decimais como 123 ou -123
+
+double//armazenar números de ponto flutuante como 19,99 ou -12,99
+
+char//armazenar caracteres únicos, como 'a' ou 'B' os valores são cercados por aspas ''simples 
+
+string//armazenar text, como "ola mundo", valores da string são cercados por "" duplas 
+
+bool//armazenar valores com dois estados , como verdadeiro ou falso 
+
+int myNum = 5;
+double myDoubleNum = 5.99D;
+char myLetter = 'D';
+bool myBool = true;
+string myText = "Hello";
+
+VARIAVEIS DE EXIBIÇÃO 
+
+O writeline é usado para exibições mna tela e para combinar o texto e uma variavel usamos o +
+ex:
+string name = "John";
+Console.WriteLine("Hello " + name);
+
+string firstName = "John ";
+string lastName = "Doe";
+string fullName = firstName + lastName;
+Console.WriteLine(fullName);
+
+
+BOOLEANOS
+ declarado com a palavra bool e só pode receber os valores true ou false
+ ex:
+
+ bool isCSharpFun = true;
+bool isFishTasty = false;
+Console.WriteLine(isCSharpFun);   // Outputs True
+Console.WriteLine(isFishTasty);   // Outputs False
+
+PERSONAGENS
+
+o char é usadopara armazenar um ÚNICO caractere usados por aspas simples '' como 'A' ou 'c':
+
+CORDAS 
+
+o string é um dado para armazenar uma sequencia de caracteres (texto) cercados por aspas ""
+
+ if e else 
+
+ não muda continua com a mesma funcionalidade que no php sendo a mesma coisa 
+ que o se/se nao porem não abrimos chaves so em caso de mais d eum if 
+
+ SWITCH 
+ é uma estrutura que serve para quando se tem multiplas execuções possíveis com base no valor de uma variavel 
+ ou expresssaõ 
+
+ TRY - CATCH
+
+ instrução para tratar execuções que podem ocorrer durante a execução de um bloco de código. coloque o codgo 
+ em que a execução pode ocorrer dentro de um bloco try.  e use  a cláusula catch para especiicar o tipo 
+ de base das execução que voc~e deseja manipular no bloco 
+
+ DivideByZeroException dbze) a execução que e gerada quando a tentativa de divisão 
+ DivideByZeroException dbze) // vai escrever uma mesangem de erro quando                                                          
+            
+
+
